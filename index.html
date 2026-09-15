@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Primary Meta Tags -->
+  <title>Saranraj | Home - Computer Science Engineering Portfolio</title>
+  <meta name="title" content="Saranraj | Home - Computer Science Engineering Portfolio">
+  <meta name="description" content="Welcome to Saranraj's personal portfolio. Computer Science Engineering student at Easwari Engineering College passionate about accessible, semantic, high-performance web applications and software systems.">
+  <meta name="author" content="Saranraj">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://saranraj-portfolio.example.com/index.html">
+
+  <!-- Open Graph / Facebook Metadata -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://saranraj-portfolio.example.com/index.html">
+  <meta property="og:title" content="Saranraj | Home - Computer Science Engineering Portfolio">
+  <meta property="og:description" content="Explore Saranraj's projects, technical skills, and computer science engineering journey at Easwari Engineering College.">
+  <meta property="og:image" content="images/saran_profile.png">
+
+  <!-- Twitter Metadata -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://saranraj-portfolio.example.com/index.html">
+  <meta property="twitter:title" content="Saranraj | Home - Computer Science Engineering Portfolio">
+  <meta property="twitter:description" content="Explore Saranraj's projects, technical skills, and computer science engineering journey at Easwari Engineering College.">
+  <meta property="twitter:image" content="images/saran_profile.png">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Accessible Skip to Main Content Link (WCAG 2.4.1) -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Main Site Header & Accessible Navigation -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand" aria-label="Saranraj Portfolio Home Page">
+        <div>
+          <span class="brand-title">Saranraj</span>
+          <span class="brand-subtitle">CS Engineering Student</span>
+        </div>
+      </a>
+
+      <!-- Mobile Navigation Toggle Button (WCAG 4.1.2) -->
+      <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle main navigation menu">
+        <span class="nav-toggle-text">Open Menu</span>
+      </button>
+
+      <!-- Main Navigation Menu -->
+      <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html" class="nav-link" aria-current="page">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="projects.html" class="nav-link">Projects</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content Area -->
+  <main id="main-content" tabindex="-1">
+
+    <!-- Hero Section -->
+    <section class="hero-section" aria-labelledby="hero-heading">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="hero-badge">Welcome to My Portfolio</span>
+          <h1 id="hero-heading" class="hero-title">Hi, I'm Saranraj</h1>
+          <p class="hero-subtitle">Computer Science Engineering Student at Easwari Engineering College</p>
+          <p class="hero-bio">
+            I am a dedicated Computer Science Engineering student at <strong>Easwari Engineering College</strong> passionate about designing clean, performant, and WCAG-accessible web solutions. I focus on semantic HTML5 standards, efficient algorithm design, and robust database management systems.
+          </p>
+
+          <!-- Accessible Action Buttons -->
+          <div class="btn-group">
+            <a href="projects.html" class="btn btn-primary">View My Projects</a>
+            <a href="contact.html" class="btn btn-secondary">Contact Me</a>
+          </div>
+        </div>
+
+        <!-- Accessible Profile Image Container -->
+        <figure class="profile-card">
+          <img src="images/saran_profile.png" alt="Portrait photo of Saranraj in formal suit, a Computer Science Engineering student at Easwari Engineering College" class="profile-img" width="260" height="346">
+          <figcaption class="profile-caption">Saranraj — Easwari Engineering College</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Quick Highlights Section -->
+    <section class="section section-alt" aria-labelledby="highlights-heading">
+      <div class="container">
+        <h2 id="highlights-heading">Core Competencies &amp; Focus Areas</h2>
+        <p>A quick summary of the technical areas I actively specialize in during my engineering degree at Easwari Engineering College:</p>
+
+        <div class="card-grid">
+          <article class="card">
+            <div class="card-body">
+              <h3 class="card-title">Semantic Web Development</h3>
+              <p>Building clean, responsive, and WCAG 2.1 AA compliant web platforms utilizing native HTML5 elements, CSS3 variables, and vanilla JavaScript without heavy frameworks.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-body">
+              <h3 class="card-title">Database &amp; Systems Engineering</h3>
+              <p>Designing relational database structures, optimize complex SQL queries, and architecting backend data pipelines for hospital management and enterprise applications.</p>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-body">
+              <h3 class="card-title">Interdisciplinary Research</h3>
+              <p>Applying computational modeling and algorithmic logic to real-world challenges, such as biological plastic degradation research and environmental computer modeling.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Projects Preview Section -->
+    <section class="section" aria-labelledby="featured-heading">
+      <div class="container">
+        <h2 id="featured-heading">Featured Academic Projects</h2>
+        <p>Here are some of the key engineering projects I have built during my studies:</p>
+
+        <div class="card-grid">
+
+          <!-- Project 1 Card -->
+          <article class="card">
+            <img src="images/hospital_system.png" alt="UI Dashboard for Smart Hospital Management System displaying patient statistics and appointment queue management" class="card-img" width="320" height="200">
+            <div class="card-body">
+              <h3 class="card-title">Smart Hospital Management System</h3>
+              <p>An integrated medical platform designed to streamline outpatient queues, patient record tracking, and room allocation.</p>
+              <ul class="tech-tags" aria-label="Technologies used">
+                <li class="tag">HTML5</li>
+                <li class="tag">CSS3</li>
+                <li class="tag">JavaScript</li>
+                <li class="tag">SQL</li>
+              </ul>
+            </div>
+            <div>
+              <a href="projects.html#hospital-system" class="btn btn-secondary">Learn More</a>
+            </div>
+          </article>
+
+          <!-- Project 2 Card -->
+          <article class="card">
+            <img src="images/plastic_degradation.png" alt="Biotech research illustration depicting microbial plastic degradation and computational analysis" class="card-img" width="320" height="200">
+            <div class="card-body">
+              <h3 class="card-title">Plastic Degradation — Minor Project</h3>
+              <p>An interdisciplinary minor research project modeling biological micro-organism breakdown of synthetic plastics.</p>
+              <ul class="tech-tags" aria-label="Technologies used">
+                <li class="tag">Python</li>
+                <li class="tag">Data Analysis</li>
+                <li class="tag">Bioinformatics</li>
+              </ul>
+            </div>
+            <div>
+              <a href="projects.html#plastic-degradation" class="btn btn-secondary">Learn More</a>
+            </div>
+          </article>
+
+          <!-- Project 3 Card -->
+          <article class="card">
+            <img src="images/portfolio_preview.png" alt="Mockup of personal portfolio website layout on laptop and mobile screen" class="card-img" width="320" height="200">
+            <div class="card-body">
+              <h3 class="card-title">Personal Portfolio Website</h3>
+              <p>A multi-page portfolio designed for the Thiranex internship task adhering strictly to WCAG accessibility guidelines.</p>
+              <ul class="tech-tags" aria-label="Technologies used">
+                <li class="tag">Semantic HTML5</li>
+                <li class="tag">CSS3 Grid</li>
+                <li class="tag">WCAG 2.1</li>
+              </ul>
+            </div>
+            <div>
+              <a href="projects.html#portfolio-website" class="btn btn-secondary">Learn More</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Semantic Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h2 class="footer-heading">Saranraj</h2>
+          <p>Computer Science Engineering Student at Easwari Engineering College passionate about building accessible, performant, and semantic software solutions for the modern web.</p>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <h2 class="footer-heading">Quick Links</h2>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div>
+          <h2 class="footer-heading">Connect</h2>
+          <address style="font-style: normal; line-height: 1.8;">
+            <p>Email: <a href="mailto:saranraj@example.com">saranraj@example.com</a></p>
+            <p>College: Easwari Engineering College, Chennai</p>
+          </address>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Saranraj. All rights reserved. Created for Thiranex Internship Task.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Vanilla JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
